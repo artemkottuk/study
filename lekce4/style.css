@@ -1,0 +1,105 @@
+/* .section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.box{
+    width: 50px;
+    display: inline-block;
+    height: 50px;
+    border: 2px solid black;
+}
+
+p{
+    display: inline-block;
+}
+
+.box1{
+    background-color: aqua;
+}
+.box2{
+    background-color: lightgreen;
+}
+.box3{
+    background-color: lightpink;
+}
+.box4{
+    background-color: lightgrey;
+}
+.box5{
+    background-color: lightyellow;                 
+} */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header, .footer{
+    background-color: rgb(58,252,4);
+    height: 20vh;
+}
+.aside{
+    background-color: rgba(255, 255, 0, 0.545);
+    width: 15vw;
+}
+.nav{
+     background-color: rgba(0, 191, 255, 0.545);
+    width: 15vw;
+}
+.main{
+    width: 70vw;
+}
+.mainSection{
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+
+}
+
+.btn{
+display: block;
+width: 100px;
+margin: 0 auto;
+}
+.btn:hover{
+  scale: 1,5;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+.container{
+    display: flex;
+}
+
+ul{
+    margin-top: 50px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* text-align: center; */
+}
+/* 
+li:last-child{
+    background-color: yellow;
+}
+
+li:not(:last-child){
+    background-color: lightgrey;
+} */
+
+li:nth-child(3n){
+    background-color: lightgrey;
+}
+
+li{
+    border: 1px solid black;
+    border-radius: 50%;
+    /* width: 30px;
+    height: 30px; */
+    padding: 10px;
+}

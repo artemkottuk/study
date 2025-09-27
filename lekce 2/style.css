@@ -1,0 +1,26 @@
+body {
+    background:grey;
+p{
+    color: rgb(75, 34, 19);
+}
+}
+.paragraph1 {
+    color:rgb(64, 52, 52);
+    font-size: 28px;
+}
+.paragraph2 {
+    color:rgb(81, 36, 36);
+    font-size: 14px;
+}
+#about{
+    font-style: oblique;
+}
+section{
+    background: rgb(103, 120, 37);
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+.menu{
+    list-style: none;
+}
